@@ -1,0 +1,18 @@
+# Local compilation and investigation artifacts
+build/
+compile-probe/
+decompiled/
+nested/
+release/
+cfr-*.jar
+
+# Personal settings and launcher files
+*.properties
+*.original.bak
+*.log
+.idea/
+.vscode/
+
+# Keep only the verified distributable JAR
+*.jar
+!dist/Blank-DG-LAB-global-strength-MC26.2-Fabric.jar
